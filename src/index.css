@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+   background: radial-gradient(circle, transparent 20%, #47d3ff 20%, #47d3ff 80%, transparent 80%, transparent) 0% 0% / 46px 46px, radial-gradient(circle, transparent 20%, #47d3ff 20%, #47d3ff 80%, transparent 80%, transparent) 23px 23px / 46px 46px, linear-gradient(#474bff 1.5px, transparent 1.5px) 0px -0.75px / 23px 23px, linear-gradient(90deg, #474bff 1.5px, #47d3ff 1.5px) -0.75px 0px / 23px 23px #47d3ff;
+   background-size: 46px 46px, 46px 46px, 23px 23px, 23px 23px;
+   background-color: #47d3ff;
+}
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+.spinner {
+   width: 56px;
+   height: 56px;
+   border: 11.2px #474bff double;
+   border-left-style: solid;
+   border-radius: 50%;
+   animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+
